@@ -1,0 +1,65 @@
+/* Globales */
+body{
+    text-align: center;
+}
+
+h1{
+    margin-top: 100px;
+}
+
+/* Formulario */
+
+.formulario{
+    margin: 100px 0;
+}
+
+label{
+    margin: 10px 5px 15px 15px;
+}
+
+/* Tabla */
+
+table, tbody, td, tr{
+    border: solid 1px;
+    border-collapse: collapse;
+    margin: 100px auto;
+}
+
+table{
+    box-shadow: 0 4px 15px 0 rgba(0,0,0,0.4), 0 4px 20px 0 rgba(0,0,0,0.25);
+}
+
+thead{
+    background-color: #9BBDDF /*#97AABE*/;
+}
+
+td{
+    padding: 5px;
+}
+
+.lineas{
+    background-color: #DCF7FF;
+}
+
+/* links */
+
+a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s ease;
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #6D6D6D;
+    color: white;
+    background-color: grey;
+    padding: 5px;
+}
+
+a:hover{
+    color: #ffffff;
+    background-color: #6D6D6D;
+}
